@@ -49,7 +49,7 @@ sqlbackto24h = data2.strftime("%Y-%m-%d 16:59:59.999999")
 
 
 # ////////////
-Live_db_connection_str = 'mysql+pymysql://kapraadmin:802710062V@139.162.50.185:3306/tf_iot'
+Live_db_connection_str = 'mysql+pymysql://'
 db_connection = create_engine(Live_db_connection_str)
 db_connection_str = 'mysql+pymysql://root:root@localhost:3306/touchfree'
 db_connection = create_engine(db_connection_str)
